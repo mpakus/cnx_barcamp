@@ -5,3 +5,5 @@
 Настройки для базы находятся в application/config/database.php
 
 Роутинг в файле application/config/routes.php
+
+Пути относительно домена или папки в application/config/config.php
