@@ -1,3 +1,7 @@
 ﻿Пример сайта с авторизацией Loginza.ru и фрэймворка CodeIgniter.
 
 Рабочая версия доступна здесь http://cnxbarcamp.thai4ever.ru
+
+Настройки для базы находятся в application/config/database.php
+
+Роутинг в файле application/config/routes.php
