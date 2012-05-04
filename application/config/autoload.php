@@ -80,7 +80,7 @@ $autoload['helper'] = array( 'dump', 'dc', 'inflector', 'url', 'form', 'input', 
 |
 */
 
-$autoload['config'] = array('main');
+$autoload['config'] = array();
 
 
 /*
