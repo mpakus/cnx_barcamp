@@ -28,11 +28,11 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 CREATE TABLE `users` (
   `id` int(11) NOT NULL auto_increment,
   `uid` int(11) NOT NULL,
-  `provider` varchar(64) character set cp1251 NOT NULL,
-  `identity` varchar(255) character set cp1251 NOT NULL,
-  `first_name` varchar(255) character set cp1251 NOT NULL,
-  `last_name` varchar(255) character set cp1251 default NULL,
-  `email` varchar(255) character set cp1251 default NULL,
+  `provider` varchar(64) character set utf8 NOT NULL,
+  `identity` varchar(255) character set utf8 NOT NULL,
+  `first_name` varchar(255) character set utf8 NOT NULL,
+  `last_name` varchar(255) character set utf8 default NULL,
+  `email` varchar(255) character set utf8 default NULL,
   `interest` varchar(512) default NULL,
   PRIMARY KEY  (`id`),
   KEY `uid` (`uid`,`provider`)
