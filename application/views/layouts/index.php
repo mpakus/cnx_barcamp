@@ -49,7 +49,7 @@
     </div>
 
     <div class="container">
-
+      <img src="/imgs/logo_transp.png" alt="Русскоязычный BarCamp в Чиангмае" style="margin:15px 0px 20px 0px"/>
 	  <?= $content ?>
       <hr>
 
